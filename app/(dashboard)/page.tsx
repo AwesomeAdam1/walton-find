@@ -18,7 +18,7 @@ import Autoplay from "embla-carousel-autoplay"
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="text-center">
       <div className="bg-[url(/walton.png)] h-[600px] bg-no-repeat bg-center bg-cover bg-fixed backdrop-brightness-200">
         <div className="h-full flex justify-center items-center bg-sky-950/30">
           <p className="text-white text-8xl font-semibold">
@@ -45,7 +45,7 @@ export default function HomePage() {
         </div>
         <hr className="max-w-screen-xl mx-auto my-16"/>
         <div className="flex flex-col justify-center items-center m-auto mx-4">
-          <p className="text-3xl font-semibold mb-6">Student Testimonials</p>
+          <p className="text-3xl font-semibold mb-6">Student and Company Testimonials</p>
           <div>
           <Carousel 
             className="mx-12 mb-16 max-w-xl"

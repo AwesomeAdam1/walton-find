@@ -62,7 +62,7 @@ export const SubmitApplicationForm = ({ id }: { id: string }) => {
 					name="name"
 					render={({ field }) => (
 						<FormItem>
-							<FormLabel>Position</FormLabel>
+							<FormLabel>Name</FormLabel>
 							<FormControl>
 								<Input placeholder="e.g. Adam Wang" {...field} />
 							</FormControl>
@@ -78,7 +78,7 @@ export const SubmitApplicationForm = ({ id }: { id: string }) => {
 					name="age"
 					render={({ field }) => (
 						<FormItem>
-							<FormLabel>Description</FormLabel>
+							<FormLabel>Age</FormLabel>
 							<FormControl>
 							<Input placeholder="e.g. 18" {...field} />
 							</FormControl>

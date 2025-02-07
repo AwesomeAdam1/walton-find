@@ -23,7 +23,7 @@ export default async function ManageJobApplicationsPage({ params }: any) {
 	})
 
   return (
-		<div className="m-4">
+		<div className="m-4 text-center">
 			<div className="flex flex-col items-center justify-center my-10">
 				<p className="text-5xl font-bold mb-10">
 					Current Job Applications

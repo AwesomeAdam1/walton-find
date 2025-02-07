@@ -48,7 +48,7 @@ export default function ManageJobsPage() {
 	}
 
 	return (
-		<div>
+		<div className="text-center">
 			<div className="flex flex-col justify-center items-center">
 				<p className="text-5xl font-bold my-10">
 					Manage Your Job Listings
